@@ -5,21 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="icon" type="image/png" href="quote.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
-    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
-    <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="quote-container" id="quote-container">
-        <!-- quote -->
+        <!-- Quote -->
         <div class="quote-text">
-          <i class="fas fa-quote-left"></i>
-          <span id="quote"></span>
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
         </div>
         <!-- Author -->
         <div class="quote-author">
@@ -33,8 +27,10 @@
             <button id="new-quote">New Quote</button>
         </div>
     </div>
+    <!-- Loader -->
     <div class="loader" id="loader"></div>
     <!-- Script -->
+    <script src="quotes.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
